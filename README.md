@@ -1,6 +1,8 @@
 Bricks Breaking
 ===============
 
+[![Build Status](https://travis-ci.org/ptrstovka/bricksbreaking.svg?branch=master)](https://travis-ci.org/ptrstovka/bricksbreaking)
+
 ### How to setup?
 
 - install postgreSQL (v10 will be good)
