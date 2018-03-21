@@ -3,7 +3,7 @@ language: java
 services:
   - postgresql
 
-before_script:
+before_install:
   - psql -c 'create database travis_ci_test;' -U postgres
   - cp local.properties.travis local.properties
 
