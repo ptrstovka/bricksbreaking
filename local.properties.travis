@@ -1,0 +1,7 @@
+postgreUser=postgres
+postgrePass=
+postgreUrl=jdbc:postgresql://localhost/travis_ci_test
+
+postgreTestUser=postgres
+postgreTestPass=
+postgreTestUrl=jdbc:postgresql://localhost/travis_ci_test

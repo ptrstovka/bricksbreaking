@@ -6,15 +6,7 @@ services:
 before_script:
   - psql -c 'create database travis_ci_test;' -U postgres
   - touch local.properties
-  - cat > local.properties <<EOL
-    postgreUser=postgres
-    postgrePass=
-    postgreUrl=jdbc:postgresql://localhost/travis_ci_test
-
-    postgreTestUser=postgres
-    postgreTestPass=
-    postgreTestUrl=jdbc:postgresql://localhost/travis_ci_test
-    EOL
+  - cp local.properties.travis local.properties
 
 script:
   - gradle install
