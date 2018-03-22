@@ -17,7 +17,7 @@ postgreTestUser=root
 postgreTestPass=secret
 postgreTestUrl=jdbc:postgresql://localhost:15432/root
 ```
-- execute `tables.sql` to create tables database
+- execute `tables.sql` to create tables
 - make the binary via `gradle install`
 - run it `build/install/bricksbreaking/bin/bricksbreaking`
 
