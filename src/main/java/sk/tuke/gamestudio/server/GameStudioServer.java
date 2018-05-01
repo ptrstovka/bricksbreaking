@@ -21,4 +21,5 @@ public class GameStudioServer {
 
 	@Bean
 	public CommentService commentService() {return new CommentServiceJPA();}
+
 }

@@ -4,3 +4,6 @@ out/
 .gradle/
 target/
 local.properties
+web/node_modules/
+web/build/
+web/dist/

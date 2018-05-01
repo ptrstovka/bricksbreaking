@@ -1,0 +1,22 @@
+html,
+body {
+    background-color: #99cd33;
+}
+
+.avg-star {
+    color: white;
+}
+
+.star {
+    color: #f4eb42;
+}
+
+.average-rating {
+    position: absolute;
+    left: 10px;
+    bottom: 1px;
+}
+
+.avg-title {
+    font-size: 12px;
+}
